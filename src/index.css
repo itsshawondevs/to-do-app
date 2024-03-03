@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 700px;
+  margin: auto;
+  background-color: rgb(143, 64, 218);
+  margin-top: 50px;
+  padding: 20px;
+}
+.heading{
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.input_area{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+input{
+  width: 460px;
+  padding: 8px 14px;
+  font-size: 24px;
+  outline: none;
+}
+.btn{
+  width: 130px;
+  font-size: 24px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.err{
+  color: rgb(255, 41, 41);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+ol{
+  margin-top: 30px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-transform: capitalize;
+}
+li{
+  font-size: 28px;
+  color: #fff;
+}
+.list_area{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgba(250, 235, 215, 0.155);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.btn_area{
+  display: flex;
+  column-gap: 10px;
+}
+.edit_btn, .del_btn{
+  padding: 6px 0;
+  width: 90px;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: aquamarine;
+  border: none;
+}
+.edit_btn:hover, .del_btn:hover{
+  background-color: rgb(76, 226, 176);
+}
